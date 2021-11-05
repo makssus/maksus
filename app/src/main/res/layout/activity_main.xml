@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/gradlist"
+    android:id="@+id/main_layout"
+    android:scrollbars="none">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTintMode="screen"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        tools:context=".MainActivity"
+
+        >
+
+
+        <TextView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginEnd="40sp"
+            android:layout_marginBottom="40sp"
+            android:fontFamily="@font/almendra_bold"
+            android:text="@string/logotext"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/user_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:layout_marginHorizontal="50sp"
+            android:layout_marginTop="28dp"
+            android:autofillHints="Введите город"
+            android:ems="10"
+            android:fontFamily="@font/almendra_bold"
+            android:hint="@string/hint_User_Field"
+
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="@color/textcolor"
+            android:textColorHint="@color/textcolorhint"
+            tools:ignore="TextContrastCheck" />
+
+        <LinearLayout
+            android:id="@+id/btn_layout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/user_field"
+            android:layout_marginHorizontal="100sp"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/main_btn"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/almendra_bold"
+                android:text="@string/main_btn"
+                android:textAlignment="center"
+                android:textColor="#fff" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/result_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/city_info"
+            android:layout_marginStart="40sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40sp"
+            android:layout_marginBottom="40sp"
+            android:fontFamily="@font/fontdiner_swanky"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/description_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/result_info"
+            android:layout_marginStart="40sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40sp"
+            android:layout_marginBottom="40sp"
+            android:fontFamily="@font/fontdiner_swanky"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/city_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_layout"
+            android:layout_marginStart="40sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40sp"
+            android:layout_marginBottom="40sp"
+            android:fontFamily="@font/fontdiner_swanky"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginVertical="30dp"
+            android:layout_marginBottom="48dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/act_change"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginHorizontal="10sp"
+                android:layout_weight="01"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/_2_2"
+                android:textAlignment="viewStart"
+                android:textColor="#F3F0F0"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck"
+
+                />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10sp"
+                android:layout_weight="1"
+                android:text="@string/Author"
+                android:textAlignment="textEnd"
+                android:textColor="#F3F0F0"
+                tools:ignore="TextContrastCheck" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

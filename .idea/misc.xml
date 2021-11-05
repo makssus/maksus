@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Tonik/AndroidStudioProjects/Third/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2057017543859649" />
+        <entry key="..\:/Users/Tonik/AndroidStudioProjects/Third/app/src/main/res/drawable/Icon_background.xml" value="0.2057017543859649" />
+        <entry key="..\:/Users/Tonik/AndroidStudioProjects/Third/app/src/main/res/drawable/bg_1.xml" value="0.2057017543859649" />
+        <entry key="..\:/Users/Tonik/AndroidStudioProjects/Third/app/src/main/res/drawable/bg_2.xml" value="0.2057017543859649" />
+        <entry key="..\:/Users/Tonik/AndroidStudioProjects/Third/app/src/main/res/drawable/bg_3.xml" value="0.2057017543859649" />
+        <entry key="..\:/Users/Tonik/AndroidStudioProjects/Third/app/src/main/res/drawable/gradlist.xml" value="0.2057017543859649" />
+        <entry key="..\:/Users/Tonik/AndroidStudioProjects/Third/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2057017543859649" />
+        <entry key="..\:/Users/Tonik/AndroidStudioProjects/Third/app/src/main/res/drawable/icon123_background.xml" value="0.2057017543859649" />
+        <entry key="..\:/Users/Tonik/AndroidStudioProjects/Third/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Tonik/AndroidStudioProjects/Third/app/src/main/res/layout/activity_second.xml" value="0.33" />
+        <entry key="..\:/Users/Tonik/AndroidStudioProjects/Third/app/src/main/res/layout/content_second.xml" value="0.2394736842105263" />
+        <entry key="..\:/Users/Tonik/AndroidStudioProjects/Third/app/src/main/res/layout/fragment_first.xml" value="0.18" />
+        <entry key="..\:/Users/Tonik/AndroidStudioProjects/Third/app/src/main/res/layout/fragment_second.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/Tonik/AndroidStudioProjects/Third/app/src/main/res/mipmap-anydpi-v26/Icon.xml" value="0.18640350877192982" />
+        <entry key="..\:/Users/Tonik/AndroidStudioProjects/Third/app/src/main/res/mipmap-anydpi-v26/Icon_round.xml" value="0.2057017543859649" />
+        <entry key="..\:/Users/Tonik/AndroidStudioProjects/Third/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3223684210526316" />
+        <entry key="..\:/Users/Tonik/AndroidStudioProjects/Third/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2057017543859649" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
